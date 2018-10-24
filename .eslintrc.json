@@ -1,7 +1,7 @@
 {
     "env": {
-        "node": true,
-        "es6": true
+        "browser": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -9,19 +9,14 @@
         "sourceType": "module"
     },
     "rules": {
-        "allow": [
-            "warn", 
-            "error"
-        ],
         "indent": [
             "error",
-            "tab"
+            4
         ],
         "linebreak-style": [
             "error",
             "windows"
         ],
-        "no-console": 0,
         "quotes": [
             "error",
             "single"
